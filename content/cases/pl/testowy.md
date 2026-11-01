@@ -11,5 +11,5 @@ photos:
   - src: /img/uploads/shtamp_legalizacii_mid_big.jpg
     alt: Testowy podis dokumentu
   - src: /img/uploads/favvv.png
-    alt: ''
+    alt: Podpis
 ---
