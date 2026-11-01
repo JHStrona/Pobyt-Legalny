@@ -5,10 +5,10 @@
 backend:
   name: github
   repo: JHStrona/Pobyt-Legalny
-  branch: develop
+  branch: main
 
-site_url: https://jhstrona.github.io/Pobyt-Legalny/develop/
-display_url: https://jhstrona.github.io/Pobyt-Legalny/develop/
+site_url: https://jhstrona.github.io/Pobyt-Legalny/
+display_url: https://jhstrona.github.io/Pobyt-Legalny/
 
 media_folder: img/uploads
 public_folder: /img/uploads

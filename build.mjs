@@ -14,7 +14,7 @@ import { marked } from "marked";
 
 const OUT = dirname(fileURLToPath(import.meta.url));
 // Адреса сайту для прев'ю посилань; при запуску замінити на https://pobyt-legalny.com
-const SITE = "https://jhstrona.github.io/Pobyt-Legalny/develop";
+const SITE = "https://jhstrona.github.io/Pobyt-Legalny";
 const V = "45"; // версія файлів для скидання кешу браузера
 const GOOGLE = "https://share.google/FwD8Ak1ugBSy3pjfN";
 const WA = "https://wa.me/48791017254";
