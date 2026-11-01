@@ -45,7 +45,7 @@ function readEntries(kind, lang) {
     const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
     const data = m ? YAML.parse(m[1]) || {} : {};
     return { ...data, slug: f.slice(0, -3), body: m ? m[2] : raw };
-  }).filter((e) => e.title && e.draft !== true);
+  }).filter((e) => e.title && e.hidden !== true && e.draft !== true); // «Ukryj na stronie» у адмінці
 }
 const mdHtml = (t) => (t ? marked.parse(String(t)) : "");
 // Місяць і рік мовою сторінки: «Жовтень 2026»

@@ -35,8 +35,19 @@ collections:
     identifier_field: title
     summary: "{{title}}"
     sortable_fields: [date, title]
+    view_filters:
+      - label: Ukryte
+        field: hidden
+        pattern: true
     i18n: true
     fields:
+      - name: hidden
+        label: Ukryj na stronie
+        hint: Wpis zostaje w panelu, ale znika ze strony (we wszystkich językach). Odznacz, aby znowu go pokazać.
+        widget: boolean
+        default: false
+        required: false
+        i18n: duplicate
       - name: title
         required: [uk, ru, en]
         label: Tytuł
@@ -75,8 +86,19 @@ collections:
     identifier_field: title
     summary: "{{position}}. {{title}}"
     sortable_fields: [position, title]
+    view_filters:
+      - label: Ukryte
+        field: hidden
+        pattern: true
     i18n: true
     fields:
+      - name: hidden
+        label: Ukryj na stronie
+        hint: Wpis zostaje w panelu, ale znika ze strony (we wszystkich językach). Odznacz, aby znowu go pokazać.
+        widget: boolean
+        default: false
+        required: false
+        i18n: duplicate
       - name: position
         label: Pozycja
         hint: 1 — pierwsza na liście, 2 — druga itd.
