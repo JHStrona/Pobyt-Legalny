@@ -6,6 +6,7 @@ backend:
   name: github
   repo: JHStrona/Pobyt-Legalny
   branch: main
+  base_url: https://sveltia-cms-auth.jh-strona.workers.dev
 
 site_url: https://jhstrona.github.io/Pobyt-Legalny/
 display_url: https://jhstrona.github.io/Pobyt-Legalny/
