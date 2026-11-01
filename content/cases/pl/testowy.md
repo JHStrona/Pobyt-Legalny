@@ -1,4 +1,5 @@
 ---
+hidden: true
 position: 6
 tag: Testowa??
 title: Testowy
